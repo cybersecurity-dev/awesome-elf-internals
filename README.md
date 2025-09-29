@@ -1,4 +1,10 @@
-# Awesome [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) (Executable and Linkable Format) Internals [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+    <a href="https://wiki.osdev.org/ELF">
+      <img width="50%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/ELF_internals.jpg" />
+    </a>
+</p>
+
+# Awesome [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) (Executable and Linkable [Format](https://gabi.xinuos.com/)) Internals [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
