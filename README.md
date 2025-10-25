@@ -5,6 +5,9 @@
 </p>
 
 # Awesome [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) (Executable and Linkable [Format](https://gabi.xinuos.com/)) Internals [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]() 
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
 
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
