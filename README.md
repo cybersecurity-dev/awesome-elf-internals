@@ -1,7 +1,7 @@
 <div align="center">
     <p align="center">
         <a href="https://wiki.osdev.org/ELF">
-          <img width="55%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/ELF_internals.jpg" />
+          <img width="75%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/ELF_internals.jpg" />
         </a>
     </p>
 
@@ -15,7 +15,7 @@
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
@@ -27,6 +27,69 @@
 - [Contributors](#contributors)
 
 ## ELF X-Ray
+
+```mermaid
+mindmap
+  root((ELF Internals))
+
+    ELF Header
+      Magic Number
+      Architecture
+      Endianness
+      Entry Point
+      File Type
+      Offsets
+
+    Program Headers
+      Loadable Segments
+      Memory Mapping
+      PT_LOAD
+      PT_INTERP
+      PT_DYNAMIC
+      PT_NOTE
+
+    Sections
+      .text
+      .data
+      .rodata
+      .bss
+      .plt
+      .got
+      .dynamic
+      .init
+      .fini
+
+    Symbol Information
+      Symbol Table
+      String Table
+      Relocations
+
+    Dynamic Linking
+      libc.so
+      ld-linux.so
+      GOT
+      PLT
+
+    Runtime View
+      Stack
+      Heap
+      Data Segment
+      Code Segment
+
+    Security Analysis
+      Packers
+      Obfuscation
+      Malware Detection
+      IoT Malware
+
+    Reverse Engineering
+      readelf
+      objdump
+      strings
+      nm
+      Ghidra
+      IDA Pro
+```
 
 ## Miscellaneous Tools
 
@@ -41,4 +104,7 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 ### Contributors
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/awesome-elf-internals/graphs/contributors)!
 
-[🔼 Back to top](##awesome-elf-executable-and-linkable-format-internals-)
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
+
+[🔼 Back to top](#awesome-elf-executable-and-linkable-format-internals-)
